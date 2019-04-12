@@ -65,7 +65,7 @@ class Formulario extends React.Component {
                 </div>
                 <div className="campo">
                     <label>Plan:</label>
-                    <input type="radio" name="plan" ref={this.planBasico} value="basico"/> Básico
+                    <input type="radio" name="plan" ref={this.planBasico} checked value="basico"/> Básico
                     <input type="radio" name="plan" ref={this.planCompleto} value="completo"/> Completo
                 </div>
 

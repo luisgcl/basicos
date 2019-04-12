@@ -54,10 +54,10 @@ class App extends Component {
       }
        //ya tenemos el costo
        this.setState({
-        resultado : resultado,
-        datos : datosAuto
+         datos : datosAuto,
+        resultado : resultado
       })
-      console.log(datosAuto);
+      // console.log(datosAuto);
     }
 
   render() {
@@ -71,6 +71,8 @@ class App extends Component {
         />
         <Resumen 
           datos={this.state.datos}
+
+          resultado={this.state.resultado}
         />
       </div>
       
